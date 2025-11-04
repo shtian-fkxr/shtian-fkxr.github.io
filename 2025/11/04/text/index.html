@@ -19,12 +19,12 @@
   <meta name="author" content="fkxr">
   <meta name="keywords" content="">
   
-    <meta name="description" content="$$中文$$">
+    <meta name="description" content="中文">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
 <meta property="og:url" content="https://shtian-fkxr.github.io/2025/11/04/text/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="$$中文$$">
+<meta property="og:description" content="中文">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-11-04T12:03:15.468Z">
 <meta property="article:modified_time" content="2025-11-04T12:14:38.443Z">
@@ -275,8 +275,7 @@
             
               <div class="markdown-body">
                 
-                <p>$$中文$$</p>
-
+                <script type="math/tex; mode=display">中文</script>
                 
               </div>
             
@@ -603,5 +602,21 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+<!-- script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
